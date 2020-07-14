@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" /><![endif]-->
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="BATUSystems.pl">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kancelarie RP to nowa jakość w usługach prawniczych online</title>
+        <link href="https://kancelarierp.pl/favicon.png" rel="icon" type="image/png">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+        <link href="./index_files/style.css?v=1" rel="stylesheet" type="text/css">
+        <!--<base href="/">--><base href=".">
+
+        <!--[if lt IE 9]><script src="/assets/scripts/html5shiv.js"></script><![endif]-->
+    </head>
+    <body>
+        <main class="iframe">
+                <!-- [subsections] -->
+    <div class="row row-idx-0">
+                <div class="col-sm-12 col-idx-0"><div>
+    <section class="classic-section contract-search contract-isearch">
+        <div class="container">
+            <div class="standard-text">
+                <div class="logo">
+                    <a target="_blank" href="https://kancelarierp.pl/"><img src="./index_files/kancelarierp-logo-new.png" alt="Kancelarie RP"></a>
+                </div>
+                                    <h3>Znajdź prawnika z rekomendacją Rzeczpospolitej</h3>
+                                <div class="border"></div>
+            </div>
+            <div class="search-cats">
+				<form method="GET" action="http://kancelarie2.dkonto.pl/category/kancelarie">
+					<label for="categories">Nasi partnerzy</label><!--
+					--><div class="select-wrapper"><p>województwo</p><select id="province-select" name="wojewodztwo">
+						<option value="">województwo</option>
+						<option value="dolnośląskie">dolnośląskie</option><option value="kujawsko-pomorskie">kujawsko-pomorskie</option><option value="lubelskie">lubelskie</option><option value="lubuskie">lubuskie</option><option value="łódzkie">łódzkie</option><option value="małopolskie">małopolskie</option><option value="mazowieckie">mazowieckie</option><option value="opolskie">opolskie</option><option value="podkarpackie">podkarpackie</option><option value="podlaskie">podlaskie</option><option value="pomorskie">pomorskie</option><option value="śląskie">śląskie</option><option value="świętokrzyskie">świętokrzyskie</option><option value="warmińsko-mazurskie">warmińsko-mazurskie</option><option value="wielkopolskie">wielkopolskie</option><option value="zachodniopomorskie">zachodniopomorskie</option>					</select></div><!--
+					--><div class="select-wrapper"><p>wybierz specjalizację</p><select id="specialization-select">
+						<option value="">specjalizacja</option>
+						<option value="restrukturyzacja-i-upadlosc">restrukturyzacja i upadłość</option><option value="zarzadzanie-wierzytelnosciami-b2b-i-b2c">zarządzanie wierzytelnościami B2B I B2C</option><option value="obsluga-korporacyjna">obsługa korporacyjna</option><option value="nieruchomosci-kancelarie">nieruchomości</option><option value="prawo-nowych-technologii">prawo nowych technologii</option><option value="prawo-gospodarcze-kancelarie">prawo gospodarcze</option><option value="prawo-spolek">prawo spółek</option><option value="wlasnosc-intelektualna">własność intelektualna</option><option value="zamowienia-publiczne-kancelarie">zamówienia publiczne</option><option value="dzialalnosc-gospodarcza">działalność gospodarcza</option><option value="prawo-pracy-kancelarie">prawo pracy</option><option value="podatki-kancelarie">podatki</option><option value="ceny-transferowe">ceny transferowe</option><option value="kontakty-gospodarcze">kontakty gospodarcze</option><option value="prawo-ochrony-konkurencji">prawo ochrony konkurencji</option><option value="projekty-infrastrukturalne">projekty infrastrukturalne</option><option value="inwestycje">inwestycje</option><option value="transport">transport</option><option value="prawo-budowlane">prawo budowlane</option><option value="ochrona-srodowiska">ochrona środowiska</option><option value="prawo-bankowe">prawo bankowe</option><option value="prawo-karne-gospodarcze">prawo karne gospodarcze</option><option value="postepowanie-sadowe">postępowanie sądowe</option><option value="ochrona-danych-osobowych">ochrona danych osobowych</option><option value="pozostale">pozostałe</option>					</select></div>
+				</form>
+			</div>
+        </div>
+    </section>
+</div>
+                </div>
+    </div><!-- [/subsections] -->
+
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./index_files/bootstrap.min.js"></script>
+    
+		<script>
+			$(document).ready(function(){
+				
+				$('#province-select').change(function(){
+					$(this).closest('form').submit();
+				});
+				
+				$('#specialization-select').change(function(){
+					location.replace('http://kancelarie2.dkonto.pl/category/kancelarie/'+$(this).val());
+				});
+				
+			});
+		</script>
+
+</body></html>
