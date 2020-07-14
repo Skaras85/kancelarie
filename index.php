@@ -2,8 +2,8 @@
 <main id="content" role="main">
 	<div class="search-cats">
 		<form>
-			<label for="categoriesSelect">Artykuły</label><!--
-			--><div class="select-wrapper"><p>(Wybierz z listy)</p><select id="categoriesSelect">
+			<label for="categories-select">Artykuły</label><!--
+			--><div class="select-wrapper"><p>(Wybierz z listy)</p><select id="categories-select">
 				<option value=""> </option>
 				<?php
 					$categories = get_categories(array('parent' => 4, 'hide_empty'=>0));
